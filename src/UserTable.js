@@ -20,6 +20,7 @@ const UserTable = ({ userObj }) => {
       <div className="input-wrapper">
         <input
           type="text"
+          placeholder="Search"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         ></input>
